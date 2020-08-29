@@ -1,0 +1,900 @@
+
+
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by anonymous (http://jsbin.com/kesekafufe/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>login . Instagram</title>
+  <style>
+
+   .rgFsT {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 12px;
+    max-width: 350px;
+    width: 100%;
+}
+
+    .F1 {
+    margin-bottom: 24px;
+}
+
+   
+    
+    </style>
+<style id="jsbin-css">
+.hh1{
+  margin: 22px auto 12px;
+  font-weight:bold;
+}
+.hh2{
+    display: block;
+    overflow: hidden;
+    
+    text-indent: 110%;
+    white-space: nowrap;
+}
+
+.hh3, .coreSpriteMobileNavDirect {
+    background-repeat: no-repeat;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position: -98px 0;
+    background-position-x: -98px;
+    background-position-y: 0px;
+    height: 51px;
+    width: 175px;
+
+
+input{
+     -webkit-writing-mode: horizontal-tb !important;
+
+  text-rendering:auto;
+  letter-spacing:normal;
+  word-spacing:normal;
+  text-transform:none;
+  text-indent:0px;
+  text-shadow:none;
+  display:inline-block;
+  text-align:start;
+  cursor:text;
+     font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+ font-size: 13.3333px;
+    line-height: normal;
+    font-family: Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+  background:#fafafa;
+  border:0;
+  padding-top:9px;
+  padding-right:0;
+    padding-bottom:7px;
+    padding-left:8px;
+   margin:0px;
+  flex:1 0 auto;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+</style>
+<style id="jsbin-css">
+
+
+
+
+.a1{
+    display: block;
+}
+
+.a2 {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.a3{
+    font-weight: 300;
+}
+.a4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+    }
+.izU2O {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+
+.b1, .b2 {
+    display: inline!important;
+    margin: 0!important;
+}
+
+.b3 {
+    color: #0095f6;
+    color: rgba(var(--d69,0,149,246),1);
+}
+.b4 {
+    font-weight: 600;
+}
+.b4{
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+.c1{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.gr27e {
+    background-color: #fff;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    
+  
+  
+  
+  
+
+
+
+padding-bottom:10px;
+padding-left:0px;
+padding-right:0px;
+padding-top:10px;
+
+
+text-size-adjust:100%;
+vertical-align:baseline;
+width:350px;
+-webkit-box-align:stretch;
+-webkit-box-direction:normal;
+-webkit-box-orient:vertical;
+}
+.d1{
+    margin-bottom: 24px;
+}
+
+.d2 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.d3{
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.d4 {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.d5{
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.e {
+    margin: 0 40px 6px;
+}
+
+.f{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-appearance: none;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+}
+
+.g {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 36px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+
+.h{
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 36px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: -webkit-transform ease-out .1s;
+    transition: -webkit-transform ease-out .1s;
+    transition: transform ease-out .1s;
+    transition: transform ease-out .1s,-webkit-transform ease-out .1s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.f0n8F .i1 {
+    font-size: 16px;
+}
+
+.i2 {
+    -webkit-appearance: none;
+}
+.i3 {
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+}
+
+.j{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 100%;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.k1 {
+    margin-top: 8px;
+}
+
+.k2{
+    margin-right: 40px;
+}
+.k3 {
+    margin-left: 40px;
+}
+.k4 {
+    margin-bottom: 8px;
+}
+.k5 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.k6 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.k7{
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.k8 {
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.l1[disabled]:not(.l11):not(.A086a), a.l1[disabled]:not(.l11):not(.A086a), a.l1[disabled]:not(.l11):not(.A086a):visited {
+    background-color: rgba(0,149,246,.3);
+    background-color: rgba(var(--d69,0,149,246),.3);
+    opacity: 1;
+}
+
+.l2[disabled]:not(.A086a) {
+    opacity: .3;
+}
+.l1:not(.l11), a.l1:not(.l11), a.l1:not(.l11):visited {
+    border: 1px solid transparent;
+    background-color: #0095f6;
+    background-color: rgba(var(--d69,0,149,246),1);
+}
+.l4[disabled], a.l4[disabled] {
+    pointer-events: none;
+}
+.l3, a.l3, a.l3:visited {
+    border-radius: 4px;
+    color: #fff;
+    color: rgba(var(--eca,255,255,255),1);
+    position: relative;
+}
+.l4 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: 0 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: auto;
+}
+
+.coreSpriteFacebookIcon {
+    background-position: -320px -224px;
+    height: 16px;
+    width: 16px;
+}
+.coreSpriteFacebookIcon, hh3{
+    background-image: url(/static/bundles/es6/sprite_core_576406ccc24b.png/576406ccc24b.png);
+}
+
+.AeB99 {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+}
+
+.KPnG0 {
+    color: #385185;
+}
+
+.z1 {
+    margin: 10px 40px 18px;
+}
+
+.z2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.x1 {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    background-color: #dbdbdb;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.x2{
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.y1, ._2Lks6:hover, .y1:active, .y1:visited {
+    color: #00376b;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+a, a:visited {
+    color: #00376b;
+    color: rgba(var(--fe0,0,55,107),1);
+    text-decoration: none;
+}
+ button, input, textarea {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.w1 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.w2 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.w3 {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.w4 {
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.bb {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+}
+.ii {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.zz{
+    margin-right: 8px;
+}
+.rr {
+     height: 40px; 
+}
+  #react-root, article, div, footer, header, main, nav, section {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+  .o64aR, ._3Laht {
+    background-color: #fafafa;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.SCxLW {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+}
+  .mm {
+    min-height: 100%;
+    overflow: hidden;
+    padding-bottom: 44px;
+}
+  
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+</style>
+<style id="jsbin-css">
+.pp{
+  box-sizing:border-box;
+    
+  width:350px;
+  max-width:360px;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  box-sizing:border-box;
+  display:block;
+  margin-top:5px;
+  margin-right:90px;
+  margin-left:450px;
+  margin-bottom:7px;
+  padding:auto;
+}
+</style>
+<style id="jsbin-css">
+.ps {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
+    padding: 0 20px;
+}
+
+.o64aR, .mp {
+    background-color: #fafafa;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+</style>
+<style id="jsbin-css">
+
+
+ixdEe {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin-bottom: 3px;
+}
+.K5OFK {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+}
+.uxKLF{
+line-height:18px;
+width:675px;
+}
+
+.hk{
+  background-image:url(https://www.instagram.com/static/bundles/es6/sprite_core_576406ccc24b.png/576406ccc24b.png);
+background-position-x:-98px;
+background-position-y:0px;
+background-repeat-x:;
+background-repeat-y:;
+border-bottom-color:rgb(38, 38, 38);
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0;
+initiala, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(38, 38, 38);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(38, 38, 38);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(38, 38, 38);
+border-top-style:none;
+border-top-width:0px;
+color:rgb(38, 38, 38);
+display:block;
+font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+font-size:14px;
+font-stretch:100%;
+font-style:normal;
+font-variant-caps:normal;
+font-variant-east-asian:normal;
+font-variant-ligatures:normal;
+font-variant-numeric:normal;
+font-weight:400;
+height:51px;
+line-height:18px;
+margin-block-end:12px;
+margin-block-start:22px;
+margin-bottom:12px;
+margin-inline-end:86.5px;
+margin-inline-start:86.5px;
+margin-left:86.5px;
+margin-right:86.5px;
+margin-top:22px;
+overflow-x:hidden;
+overflow-y:hidden;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+padding-top:0px;
+text-indent:110%;
+text-size-adjust:100%;
+vertical-align:baseline;
+white-space:nowrap;
+width:175px;
+-webkit-box-direction:normal;
+}
+
+body, button, input, textarea {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+html, body, #react-root {
+    height: 100%;
+}
+body {
+    background: #fff;
+    background: rgba(var(--d87,255,255,255),1);
+    overflow-y: scroll;
+}
+body {
+    line-height: 1;
+}
+.rr1 {
+    margin: 0 auto;
+    max-width: 935px;
+    width: 100%;
+}
+.rr1, .mm{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+</style>
+<style id="jsbin-css">
+
+
+.iseBh {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.yz{
+  width:350px;
+  margin-left:450px;
+  margin-bottom:30px;
+}
+.DINPA {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.y1{
+  margin-bottom:-30px;
+}
+
+.sk{
+  margin-top:-10px;
+}
+.mg{
+  margin-top:-30px;
+}
+</style>
+</head>
+<body style="background-color: rgba(var(--b3f,250,250,250),1)">
+<div class="pp">
+ <div id ="react-root">  
+    <section class="aa kk">
+     <div></div>
+      <main class=" main SCxLW  o64aR " role="main">
+         <div class="mm"> 
+           <article class="rr1">
+             <div class=" rgFsT ">
+             <div class="rg27e">
+               <h1 class=" hh1 hk  hh3"><center><big>Instagram</big></center></h1>            <div class="ee">
+               <form class="c1" method="post">
+                  <div class="d1  d2  d3  d4  d5">
+                  </div>
+                 <div class="e">   
+                 <div class="f">
+                  <label class ="g"> 
+                    <span class =" h">Phone number, username, or email</span>
+                     <input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="i1 i2 i3" >
+                       <div class="j"></div>
+                  </label>
+                 </div>
+                 </div>  
+                   <div class="e">   
+                   <div class="f">
+                     <label class ="g"> 
+                        <span class =" h">Password</span>
+                        <input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="i1 i2 i3" >
+                        <div class="j"></div>
+                     </label>
+                   </div>
+                   </div>  
+                    <div class="k1 k2 k3 k4 k5 k6 k7 k8">
+                        <button class= "l1 l2 l3 l4" disabled type ="submit">
+                        <div class=" w1 w2 w3 w4 ">Log In</div>
+                        </button>
+                    </div>
+    
+               <div class="z1 z2">
+                    <div class="x1"></div>
+                    <div class="x2">or</div>
+                    <div class="x1"></div>
+              </div>
+               <div class="sk k1 k2 k3 k4 k5 k6 k7 k8">
+                <button class= "l1 l2 l11 l4" disabled type ="button">
+                <span class="coreSpriteFacebookIcon AeB99"></span>
+                <span class=" KPnG0"><img src="https://image.flaticon.com/icons/png/128/124/124010.png" width=15 height=15 >  Log in with Facebook</span>
+               </button> 
+              </div>
+           <a class="y1" href="/accounts/password/reset/">Forgot password?</a>
+        </form>
+               
+                  </div>
+               </div>
+    </div>
+  </div> 
+ </div>
+</div>
+ <div class=" yz  gr27e"> 
+   <div class=" a1 a2 a3 a4">
+     <p class="izU2O">
+          Don't have an account? 
+       <a href ="/accounts/emailsignup/">
+         <span class="b1 b2 b3 b4 ">Sign up</span>
+       </a>
+    </p>
+  </div>
+ </div>
+  <div class=" yz mg APQi1">
+    <p class="bb">Get the app.</p>
+    <div class="ii">
+      <a class="zz" href=" ">
+        <img alt=" " class="rr " src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png">
+      </a>
+      <a class="zz" href=" ">
+        <img class="rr" src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png">
+      </a>
+    </div>
+  </div> 
+  <div>
+    </article>
+    </div>
+  </main>
+ </section>
+<!--<footer class="ps mp " role ="content_info">   
+  <div class="iseBh  VWk7Y " style="max-width: 1012px;">  
+    <nav class="uxKLF">
+      <ul class="ixdEe _9Rlzb">
+          <a class="l93RR" href="https://about.instagram.com/about-us" rel="nofollow noopener noreferrer" target="_blank">About</a></li>
+        <li class="mp"><a  href="#">Help</a></li>
+        <li class="mp"><a href="#">Press</a></li>
+        <li class="mp"><a href="#">API</a></li>
+        <li class="mp"><a  href="#">Jobs</a></li>
+        <li class="mp"><a  href="#">Privacy</a></li>
+        <li class="mp"><a  href="#">Terms</a></li>
+        <li class="mp"><a  href="#">Locations</a></li>
+        <li class="mp"><a href="#">Top Accounts</a></li>
+        <li class="mp"><a href="#">Hashtags</a></li>
+        <li class="mp"><a href="#">Language</a></li>
+       </ul>
+    </nav>
+    <span class="DINPA">© 2020 Instagram from Facebook</span>
+
+  </div>
+   </footer>   -->
+</body>
+</html>
